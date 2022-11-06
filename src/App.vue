@@ -1,15 +1,16 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-    <h1>Would you rather?</h1>
-
-    <h2>Please make your choice!</h2>
+<div id="app">
+  <h1>Would you rather...</h1>
+    <would-you-rather></would-you-rather>
+</div>
 </template>
 
 <script>
 import WouldYouRather from './components/WouldYouRather.vue'
 
 export default {
-  name: 'WouldYouRather',
+  name: 'App',
   components: {
     WouldYouRather
   }
